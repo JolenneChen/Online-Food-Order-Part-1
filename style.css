@@ -28,31 +28,56 @@ nav ul li a:hover{
 }
 
 .menu-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 25px;
     margin-right: 5px;
     display: inline-flex;
 }
 
 .male-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 25px;
     margin-right: 5px;
     display: inline-flex;
+    
 }
 
 .female-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 25px;
     margin-right: 5px;
     display: inline-flex;
 }
 
 .kid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 25px;
     margin-right: 5px;
     display: inline-flex;
 }
 
 .adult-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 25px;
     margin-right: 5px;
     display: inline-flex;
+}
+
+.Gifts-for{
+    display: flex;
+    padding: 50px;
+    max-width: 300px;
+
+}
+
+.Gifts-for .them .center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
